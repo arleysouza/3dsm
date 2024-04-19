@@ -1,0 +1,87 @@
+db.products.drop()
+db.products.insertMany([
+  {
+    nome: "Feijão",
+    valor: 7.5,
+	quantidade: 34,
+	minimo: 20,
+	categoria: "Alimentação"
+  },
+  {
+    nome: "Arroz",
+    valor: 22.8,
+	quantidade: 12,
+	minimo: 15,
+	categoria: "Alimentação"
+  },
+  {
+    nome: "Sal",
+    valor: 3.1,
+	quantidade: 21,
+	minimo: 10,
+	categoria: "Alimentação"
+  },
+  {
+    nome: "Bolacha",
+    valor: 3.9,
+	quantidade: 18,
+	minimo: 10,
+	categoria: "Alimentação"
+  },
+  {
+    nome: "Macarrão",
+    valor: 4.9,
+	quantidade: 42,
+	minimo: 15,
+	categoria: "Alimentação"
+  },
+  {
+    nome: "Sabão",
+    valor: 2.5,
+	quantidade: 45,
+	minimo: 10,
+	categoria: "Limpeza doméstica"
+  },
+  {
+    nome: "Açúcar",
+    valor: 19.8,
+	quantidade: 54,
+	minimo: 20,
+	categoria: "Alimentação"
+  },
+  {
+    nome: "Farinha de trigo",
+    valor: 3.2,
+	quantidade: 11,
+	minimo: 15,
+	categoria: "Alimentação"
+  },
+  {
+    nome: "Óleo de soja",
+    valor: 7.5,
+	quantidade: 18,
+	minimo: 20,
+	categoria: "Alimentação"
+  },
+  {
+    nome: "Sabonete",
+    valor: 2.9,
+	quantidade: 34,
+	minimo: 10,
+	categoria: "Higiene pessoal"
+  },
+  {
+    nome: "Pasta de dente",
+    valor: 8.5,
+	quantidade: 22,
+	minimo: 10,
+	categoria: "Higiene pessoal"
+  },
+  {
+    nome: "Detergente",
+    valor: 5.9,
+	quantidade: 18,
+	minimo: 15,
+	categoria: "Limpeza doméstica"
+  },
+])

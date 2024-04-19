@@ -1,0 +1,57 @@
+db.users.drop()
+db.users.insertMany([
+  {
+    nome: "Pedro",
+    idade: 25,
+	genero: "M"
+  },
+  {
+    nome: "Ana",
+    idade: 20,
+	genero: "F" 
+  },
+  {
+    nome: "Maria",
+    idade: 21,
+	genero: "F" 
+  },
+  {
+    nome: "Lucas",
+    idade: 28,
+	genero: "M" 
+  },
+  {
+    nome: "João",
+    idade: 22,
+	genero: "M" 
+  },
+  {
+    nome: "Renata",
+    idade: 24,
+	genero: "F" 
+  },
+  {
+    nome: "Paulo",
+    idade: 23,
+	genero: "M" 
+  },
+  {
+    nome: "Bruna",
+    idade: 27,
+	genero: "F" 
+  },
+  {
+    nome: "Irene",
+    idade: 20,
+	genero: "F" 
+  },
+  {
+    nome: "Roberto",
+    idade: 21,
+	genero: "M" 
+  },
+  {
+    nome: "Yuri",
+	genero: "M" 
+  }
+])
