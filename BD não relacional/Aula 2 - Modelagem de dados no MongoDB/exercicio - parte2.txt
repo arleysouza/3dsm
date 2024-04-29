@@ -1,0 +1,194 @@
+db.regions.drop()
+db.regions.insertMany([
+  {
+    _id: ObjectId("662bff49c22857ce6916c9c0"),
+	"sigla": "CO",
+    "nome": "Centro-Oeste"
+  },
+  {
+    _id: ObjectId("662bff49c22857ce6916c9c1"),
+	"sigla": "S",
+    "nome": "Sul"
+  },
+  {
+    _id: ObjectId("662bff49c22857ce6916c9c2"),
+	"sigla": "N",
+    "nome": "Norte"
+  },
+  {
+    _id: ObjectId("662bff49c22857ce6916c9c3"),
+	"sigla": "NE",
+    "nome": "Nordeste"
+  },
+  {
+    _id: ObjectId("662bff49c22857ce6916c9c4"),
+	"sigla": "SE",
+    "nome": "Sudeste"
+  }
+])
+
+db.ufs.drop()
+db.ufs.insertMany([
+  {
+    "densidade": 507.46,
+    "sigla": "DF",
+    "nome": "Distrito Federal",
+    "regiao": ObjectId("662bff49c22857ce6916c9c0")
+  },
+  {
+    "densidade": 20.44,
+    "sigla": "GO",
+    "nome": "Goiás",
+    "regiao": ObjectId("662bff49c22857ce6916c9c0")
+  },
+  {
+    "densidade": 4.19,
+    "sigla": "MT",
+    "nome": "Mato Grosso",
+    "regiao": ObjectId("662bff49c22857ce6916c9c0")
+  },
+  {
+    "densidade": 7.93,
+    "sigla": "MS",
+    "nome": "Mato Grosso do Sul",
+    "regiao": ObjectId("662bff49c22857ce6916c9c0")
+  },
+  {
+    "densidade": 59.38,
+    "sigla": "PR",
+    "nome": "Paraná",
+    "regiao": ObjectId("662bff49c22857ce6916c9c1")
+  },
+  {
+    "densidade": 39.36,
+    "sigla": "RS",
+    "nome": "Rio Grande do Sul",
+    "regiao": ObjectId("662bff49c22857ce6916c9c1")
+  },
+  {
+    "densidade": 81.03,
+    "sigla": "SC",
+    "nome": "Santa Catarina",
+    "regiao": ObjectId("662bff49c22857ce6916c9c1")
+  },
+  {
+    "densidade": 112.24,
+    "sigla": "AL",
+    "nome": "Alagoas",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 25.96,
+    "sigla": "BA",
+    "nome": "Bahia",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 60.02,
+    "sigla": "CE",
+    "nome": "Ceará",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 20.63,
+    "sigla": "MA",
+    "nome": "Maranhão",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 71.38,
+    "sigla": "PB",
+    "nome": "Paraíba",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 92.29,
+    "sigla": "PE",
+    "nome": "Pernambuco",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 13,
+    "sigla": "PI",
+    "nome": "Piauí",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 62.56,
+    "sigla": "RN",
+    "nome": "Rio Grande do Norte",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 100.87,
+    "sigla": "SE",
+    "nome": "Sergipe",
+    "regiao": ObjectId("662bff49c22857ce6916c9c3")
+  },
+  {
+    "densidade": 185.42,
+    "sigla": "SP",
+    "nome": "São Paulo",
+    "regiao": ObjectId("662bff49c22857ce6916c9c4")
+  },  
+  {
+    "densidade": 86.27,
+    "sigla": "ES",
+    "nome": "Espírito Santo",
+    "regiao": ObjectId("662bff49c22857ce6916c9c4")
+  },
+  {
+    "densidade": 35.35,
+    "sigla": "MG",
+    "nome": "Minas Gerais",
+    "regiao": ObjectId("662bff49c22857ce6916c9c4")
+  },
+  {
+    "densidade": 379.78,
+    "sigla": "RJ",
+    "nome": "Rio de Janeiro",
+    "regiao": ObjectId("662bff49c22857ce6916c9c4")
+  },
+{
+    "densidade": 5.05,
+    "sigla": "AC",
+    "nome": "Acre",
+    "regiao": ObjectId("662bff49c22857ce6916c9c2")
+  },
+  {
+    "densidade": 5.43,
+    "sigla": "AP",
+    "nome": "Amapá",
+    "regiao": ObjectId("662bff49c22857ce6916c9c2")
+  },
+  {
+    "densidade": 2.53,
+    "sigla": "AM",
+    "nome": "Amazonas",
+    "regiao": ObjectId("662bff49c22857ce6916c9c2")
+  },
+  {
+    "densidade": 6.78,
+    "sigla": "PA",
+    "nome": "Pará",
+    "regiao": ObjectId("662bff49c22857ce6916c9c2")
+  },
+  {
+    "densidade": 6.8,
+    "sigla": "RO",
+    "nome": "Rondônia",
+    "regiao": ObjectId("662bff49c22857ce6916c9c2")
+  },
+  {
+    "densidade": 2.83,
+    "sigla": "RR",
+    "nome": "Roraima",
+    "regiao": ObjectId("662bff49c22857ce6916c9c2")
+  },
+  {
+    "densidade": 5.7,
+    "sigla": "TO",
+    "nome": "Tocantins",
+    "regiao": ObjectId("662bff49c22857ce6916c9c2")
+  }
+])
